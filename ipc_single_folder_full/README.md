@@ -63,8 +63,21 @@ python3 demo_pipe.py
 python3 demo_queue.py
 ```
 
-## GitHub / Submission notes
-- Place all these files into a repository (single folder is ok).
-- Make at least 7 commits while adding features (see suggested commit messages in README).
-- Upload code to GitHub and paste the repo link in your UMS report.
+
+## Project Overview
+This repository contains a Python-based IPC (Inter-Process Communication) framework providing small demo modules for different IPC mechanisms. It is intended as an educational and reusable toolkit to demonstrate pipes, queues, shared memory, and socket-based IPC patterns.
+
+## Features
+- Demonstration of Pipes for direct process communication.
+- Queue-based IPC examples using multiprocessing.
+- Shared Memory reader/writer demos.
+- Socket client-server examples for networked IPC.
+- Small, well-documented demo scripts for quick testing.
+
+## Quick Start
+1. Clone the repo: `git clone https://github.com/ashishrepswal/ipc-framework.git`
+2. Install requirements: `pip install -r requirements.txt`
+3. Run demos from the `ipc_single_folder_full` directory, e.g.:
+   - `python demo_pipe.py`
+   - `python demo_queue.py`
 
