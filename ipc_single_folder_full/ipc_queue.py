@@ -1,5 +1,7 @@
 #!/usr/bin/env python3
 # ipc_queue.py - multiprocessing queue demo
+import logging
+logging.basicConfig(level=logging.INFO)
 from multiprocessing import Queue
 
 class IPCQueue:
@@ -15,4 +17,4 @@ class IPCQueue:
 if __name__ == '__main__':
     q = IPCQueue()
     q.push('msg1')
-    print('popped:', q.pop())
+   logging.info(f"Popped: {q.pop()}")
