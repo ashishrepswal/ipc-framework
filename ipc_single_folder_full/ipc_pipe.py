@@ -1,5 +1,8 @@
-#!/usr/bin/env python3
-# ipc_pipe.py - simple pipe demo
+"""
+IPC Pipe Module
+Provides helper functions to demonstrate inter-process communication using Python's multiprocessing Pipe.
+This module is part of a larger IPC framework for educational purposes.
+"""
 import os
 
 class IPCPipe:
